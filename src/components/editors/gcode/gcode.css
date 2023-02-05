@@ -1,0 +1,97 @@
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: var(--prism-text, #999);
+}
+
+.token.punctuation {
+    color: var(--prism-punctuation, #ccc);
+}
+
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.deleted {
+    color: var(--prism-names, #e2777a);
+}
+
+.token.block {
+    font-weight: bold;
+    color: var(--prism-names, white);
+}
+
+.token.gkey {
+    font: bold;
+    color: var(--prism-names, blue);
+}
+
+.token.mkey {
+    font: bold;
+    color: var(--prism-names, orange);
+}
+
+.token.tkey {
+    font: bold;
+    color: var(--prism-names, cyan);
+}
+
+.token.coordinate {
+    color: var(--prism-names, red);
+}
+
+.token.function-name {
+    color: var(--prism-punctuation, #6196cc);
+}
+
+.token.boolean,
+.token.number,
+.token.function {
+    color: var(--prism-functions, #f08d49);
+}
+
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol {
+    color: var(--prism-symbol, #f8c555);
+}
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin {
+    color: var(--prism-keywords, #cc99cd);
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+    color: var(--prism-strings, #7ec699);
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+    color: var(--prism-url, #67cdcc);
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+.token.italic {
+    font-style: italic;
+}
+
+.token.entity {
+    cursor: help;
+}
+
+.token.inserted {
+    color: var(--inserted, green);
+}
