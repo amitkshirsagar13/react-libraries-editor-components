@@ -30,9 +30,21 @@ const Template: Story<IButtonProps> = (args: IButtonProps) => <Button {...args} 
 export const Active = Template.bind({});
 export const Inactive = Template.bind({});
 
-const buttonStype = { padding: '10px', margin: '5px', borderRadius: '5px', paddingTop: '10px' };
+const buttonStype = {
+    padding: '10px',
+    margin: '5px',
+    borderRadius: '5px',
+    paddingTop: '10px'
+};
 
-const buttonProps: IButtonProps = { isActive: true, backgroundColor: 'black', color: 'white', children: 'Hello World!!!', style: buttonStype, onClick: () => alert('Hello World!!!') };
+const buttonProps: IButtonProps = {
+    isActive: true,
+    backgroundColor: 'black',
+    color: 'white',
+    children: 'Hello World!!!',
+    style: buttonStype,
+    onClick: () => alert('Hello World!!!')
+};
 
 Active.args = { ...buttonProps };
 Inactive.args = { ...buttonProps, isActive: false };
