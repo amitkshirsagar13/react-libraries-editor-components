@@ -1,6 +1,6 @@
-[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/amitkshirsagar13/editor-components?style=for-the-badge&logo=github)](https://www.codefactor.io/repository/github/amitkshirsagar13/editor-components)
-[![GitHub Last Update](https://img.shields.io/github/last-commit/amitkshirsagar13/editor-components?style=for-the-badge&logo=github)](https://github.com/amitkshirsagar13/editor-components)
-[![GitHub issues](https://img.shields.io/github/issues/amitkshirsagar13/editor-components?style=for-the-badge&logo=github)](https://github.com/amitkshirsagar13/editor-components/issues)
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/amitkshirsagar13/react-libraries-editor-components?style=for-the-badge&logo=github)](https://www.codefactor.io/repository/github/amitkshirsagar13/react-libraries-editor-components)
+[![GitHub Last Update](https://img.shields.io/github/last-commit/amitkshirsagar13/react-libraries-editor-components?style=for-the-badge&logo=github)](https://github.com/amitkshirsagar13/react-libraries-editor-components)
+[![GitHub issues](https://img.shields.io/github/issues/amitkshirsagar13/react-libraries-editor-components?style=for-the-badge&logo=github)](https://github.com/amitkshirsagar13/react-libraries-editor-components/issues)
 
 # Editor Components
 
