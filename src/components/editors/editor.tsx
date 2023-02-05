@@ -35,7 +35,11 @@ export function TextAreaEditor({ seedCode, language, readOnly }: any) {
 
     return (
         <div className="code-editor">
-            <textarea id="editing" onInput={(e) => setTextValue(e)} value={code} onScroll={() => syncScroll()} readOnly={_readOnly}></textarea>
+            {_readOnly ? (
+                <textarea id="editing" onInput={(e) => setTextValue(e)} value={code} onScroll={() => syncScroll()} readOnly={_readOnly}></textarea>
+            ) : (
+                <textarea id="editing" onInput={(e) => setTextValue(e)} value={code} onScroll={() => syncScroll()}></textarea>
+            )}
             <pre id="highlighting" className="pre-code">
                 <code id="code" className={`pre-code language-${language}`}>
                     {code}

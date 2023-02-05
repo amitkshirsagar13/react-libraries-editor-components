@@ -25,7 +25,7 @@ export function GCode(props: IEditor) {
     const { gCode, readOnly } = props;
 
     const _seedCode = gCode || sample_GCode;
-    const _readOnly = readOnly || true;
+    const _readOnly = readOnly || false;
     return (
         <>
             <div>
